@@ -3,10 +3,13 @@
 <buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
 
-    <variables></variables>
+    <variables>
+        <primary-color>emerald</primary-color>
+        <header-logo>android-logo.svg</header-logo>
+    </variables>
     <build-profile instance="ac">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
 

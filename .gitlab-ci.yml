@@ -1,5 +1,5 @@
 variables:
-  INSTANCE: 'Writerside/ac'
+  INSTANCE: 'Course/ac'
   ARTIFACT: 'webHelpAC2-all.zip'
   DOCKER_VERSION: '241.18775'
 
