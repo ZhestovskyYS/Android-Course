@@ -7,6 +7,5 @@
                   start-page="starter.md">
 
     <toc-element topic="starter.md"/>
-    <toc-element topic="Overview.md"/>
-    <toc-element topic="First-Term.md"/>
+    <toc-element topic="plan.md"/>
 </instance-profile>
