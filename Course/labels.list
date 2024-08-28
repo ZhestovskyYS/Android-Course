@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "https://resources.jetbrains.com/writerside/1.0/labels-list.dtd">
+<labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
+
+    <primary-label id="main" name="Main" short-name="Main">Main topic to learn</primary-label>
+    <primary-label id="extra" name="*extra" short-name="*Extra">Additional knowledge for best effort</primary-label>
+
+    <secondary-label id="todo" name="To Do">Is not started yet</secondary-label>
+    <secondary-label id="wip" name="WIP">Work in progress</secondary-label>
+
+</labels>

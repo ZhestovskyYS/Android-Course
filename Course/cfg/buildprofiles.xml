@@ -5,8 +5,10 @@
 
     <variables>
         <primary-color>emerald</primary-color>
-        <header-logo>android-logo.svg</header-logo>
+        <header-logo>https://www.gstatic.com/devrel-devsite/prod/vc7080045e84cd2ce1faf7f7a3876037748d52d088e5100df2e949d051a784791/android/images/favicon.svg</header-logo>
+        <custom-favicons>https://www.gstatic.com/devrel-devsite/prod/vc7080045e84cd2ce1faf7f7a3876037748d52d088e5100df2e949d051a784791/android/images/favicon.svg</custom-favicons>
     </variables>
+
     <build-profile instance="ac">
         <variables>
             <noindex-content>false</noindex-content>
