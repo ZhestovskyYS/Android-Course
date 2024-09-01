@@ -1,4 +1,4 @@
-# Ресурсы для изучения
+# Network libraries
 
 <secondary-label ref="todo"/>
 

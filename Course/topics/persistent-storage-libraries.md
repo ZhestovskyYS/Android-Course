@@ -1,4 +1,4 @@
-# Ресурсы для изучения
+# Persistent Storage libraries
 
 <secondary-label ref="todo"/>
 

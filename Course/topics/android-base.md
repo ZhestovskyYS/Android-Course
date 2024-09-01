@@ -35,7 +35,7 @@
     8. Animations
 
 4. Навигация
-    1. Место навигации в прхитектуре проекта
+    1. Место навигации в архитектуре проекта
     2. Основные библиотеки и способы навигации:
         1. Activity
         2. Fragment:
@@ -105,16 +105,3 @@
     4. Крашлитика
 
 </snippet>
-
-
-
-[//]: # ()
-[//]: # (<seealso>)
-
-[//]: # (    <category ref="src">)
-
-[//]: # (        <a href="https://developer.android.com/training/basics/intents">Interact with other apps</a>)
-
-[//]: # (    </category>)
-
-[//]: # (</seealso>)

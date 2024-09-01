@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="План курса" id="plan">
+
+    <section-starting-page>
+        <title>План курса</title>
+
+        <description>Навигация по темам</description>
+
+        <spotlight>
+            <a href="android-base.md" type="learn">К основной части курса</a>
+            <a href="storage.md" type="idea">К дополнительным темам</a>
+        </spotlight>
+
+        <primary>
+            <title>Основные темы</title>
+            <a href="android-base.md">Базовые знания Android экосистемы</a>
+            <a href="async.md">Асинхронное программирование</a>
+            <a href="architecture.md">Архитектура ПО</a>
+            <a href="database.md">Базы данных</a>
+            <a href="network.md">Сеть</a>
+        </primary>
+
+        <secondary>
+            <title>Дополнительные темы</title>
+            <a href="storage.md">Память</a>
+            <a href="compilation.md">Компиляция</a>
+            <a href="ci-cd.md">CI/CD</a>
+            <a href="security.md">Безопасность</a>
+        </secondary>
+
+    </section-starting-page>
+</topic>

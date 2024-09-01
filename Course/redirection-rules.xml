@@ -3,4 +3,20 @@
 <rules>
 
 
+    <rule id="306775a7">
+        <description>Created after removal of "Reference" from Android Course</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+    <rule id="37639691">
+        <description>Created after removal of "Section Starting Page" from Android Course</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="70cb4b0f">
+        <description>Created after removal of "Домашняя страница" from Android Course</description>
+        <accepts>starter.html</accepts>
+    </rule>
+    <rule id="239dbd9f">
+        <description>Created after removal of "Андроид" from Android Course</description>
+        <accepts>android.html</accepts>
+    </rule>
 </rules>

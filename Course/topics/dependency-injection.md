@@ -1,4 +1,4 @@
-# Ресурсы для изучения
+# Dependency Injection
 
 <secondary-label ref="todo"/>
 

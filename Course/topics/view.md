@@ -1,4 +1,4 @@
-# Ресурсы для изучения
+# View
 
 <secondary-label ref="todo"/>
 

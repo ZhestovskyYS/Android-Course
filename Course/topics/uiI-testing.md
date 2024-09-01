@@ -1,4 +1,4 @@
-# Ресурсы для изучения
+# UI testing
 
 <secondary-label ref="todo"/>
 

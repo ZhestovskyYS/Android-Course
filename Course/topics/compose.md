@@ -1,4 +1,4 @@
-# Ресурсы для изучения
+# Compose
 
 <secondary-label ref="todo"/>
 

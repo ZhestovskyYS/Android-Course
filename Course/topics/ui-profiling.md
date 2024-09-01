@@ -1,4 +1,4 @@
-# Ресурсы для изучения
+# UI Profiling
 
 <secondary-label ref="todo"/>
 
