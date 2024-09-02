@@ -10,13 +10,13 @@
         <toc-element topic="android-base.md">
             <toc-element topic="android-internals.md">
                 <toc-element topic="intent.md"/>
+                <toc-element topic="ipc.md"/>
                 <toc-element topic="activity.md"/>
                 <toc-element topic="Services.md"/>
                 <toc-element topic="content-providers.md"/>
                 <toc-element topic="broadcast-receivers.md"/>
                 <toc-element topic="view-model.md"/>
                 <toc-element topic="zygote.md"/>
-                <toc-element topic="ipc.md"/>
             </toc-element>
             <toc-element topic="view.md">
                 <toc-element topic="views.md"/>
