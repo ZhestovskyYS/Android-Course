@@ -2,7 +2,6 @@
 <!DOCTYPE categories
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
 <categories>
-    <category id="wrs" name="Документация Writerside" order="0"/>
+    <category id="related" name="Связанные темы" order="0"/>
     <category id="src" name="Источники" order="1"/>
-    <category id="a-base-intent-ad" name="Android Developers" order="2"/>
 </categories>

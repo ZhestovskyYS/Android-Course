@@ -9,6 +9,7 @@
     <toc-element topic="plan.topic">
         <toc-element topic="android-base.md">
             <toc-element topic="android-internals.md">
+                <toc-element topic="android-os-architecture.md"/>
                 <toc-element topic="intent.md"/>
                 <toc-element topic="ipc.md"/>
                 <toc-element topic="activity.md"/>
