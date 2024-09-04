@@ -1,3 +1,0 @@
-# Zygote
-
-Start typing here...

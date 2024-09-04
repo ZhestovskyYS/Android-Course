@@ -19,4 +19,8 @@
         <description>Created after removal of "Андроид" from Android Course</description>
         <accepts>android.html</accepts>
     </rule>
+    <rule id="79720a61">
+        <description>Created after removal of "Zygote" from Android Course</description>
+        <accepts>zygote.html</accepts>
+    </rule>
 </rules>
