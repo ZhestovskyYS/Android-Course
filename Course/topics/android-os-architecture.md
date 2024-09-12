@@ -144,6 +144,6 @@ Manager** и передаст команду на старт приложени�
 <seealso>
   <category ref="src">
     <a href="https://developer.android.com/guide/platform">Android Developers | Platform architecture</a>
-    <a href="https://nurlandroid.com/?p=321#:~:text=Zygote%20%E2%80%94%20%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%20%D0%BB%D1%8E%D0%B1%D0%BE%D0%B9%20Android,%2Fsystem%2Fbin%2Fapp_process">Процесс загрузки ОС Андроид - Nurlandroid</a>
+    <a href="https://nurlandroid.com/?p=321#:~:text=Zygote%20—%20ключевой%20компонент%20любой%20Android,%2Fsystem%2Fbin%2Fapp_process">Процесс загрузки ОС Андроид - Nurlandroid</a>
   </category>
 </seealso>
