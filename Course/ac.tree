@@ -11,7 +11,9 @@
             <toc-element topic="android-internals.md">
                 <toc-element topic="android-os-architecture.md"/>
                 <toc-element topic="intent.md"/>
+                <toc-element topic="android-processes.md"/>
                 <toc-element topic="ipc.md"/>
+                <toc-element topic="android-binder.md"/>
                 <toc-element topic="activity.md"/>
                 <toc-element topic="Services.md"/>
                 <toc-element topic="content-providers.md"/>
