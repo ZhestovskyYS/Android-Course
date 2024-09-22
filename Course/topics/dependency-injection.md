@@ -2,4 +2,4 @@
 
 <secondary-label ref="todo"/>
 
-Start typing here...
+Теория DI. Отличия Dependency Injection и Service Locator. Manual DI

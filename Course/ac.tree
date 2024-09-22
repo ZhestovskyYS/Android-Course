@@ -7,20 +7,20 @@
                   start-page="plan.topic">
 
     <toc-element topic="plan.topic">
-        <toc-element topic="android-base.md">
-            <toc-element topic="android-internals.md">
+        <toc-element toc-title="Android Base">
+            <toc-element toc-title="Android Internals">
                 <toc-element topic="android-os-architecture.md"/>
                 <toc-element topic="intent.md"/>
                 <toc-element topic="android-processes.md"/>
                 <toc-element topic="ipc.md"/>
                 <toc-element topic="android-binder.md"/>
                 <toc-element topic="activity.md"/>
-                <toc-element topic="Services.md"/>
+                <toc-element topic="services.md"/>
                 <toc-element topic="content-providers.md"/>
                 <toc-element topic="broadcast-receivers.md"/>
                 <toc-element topic="view-model.md"/>
             </toc-element>
-            <toc-element topic="view.md">
+            <toc-element toc-title="View">
                 <toc-element topic="views.md"/>
                 <toc-element topic="canvas.md"/>
                 <toc-element topic="recycler-view.md"/>
@@ -28,26 +28,24 @@
                 <toc-element topic="animations.md"/>
             </toc-element>
             <toc-element topic="compose.md">
-                <toc-element topic="compose-starting.md"/>
-                <toc-element topic="slot-machine.md">
-                </toc-element>
+                <toc-element topic="slot-machine.md"/>
                 <toc-element topic="compose-state-features.md"/>
                 <toc-element topic="side-effects.md"/>
                 <toc-element topic="recomposition-principles.md"/>
+                <toc-element topic="modifiers.md"/>
                 <toc-element topic="lazy-widgets.md"/>
                 <toc-element topic="compose-animations.md"/>
             </toc-element>
-            <toc-element topic="navigation.md">
+            <toc-element toc-title="Навигация">
                 <toc-element topic="navigation-in-architecture.md"/>
-                <toc-element topic="navigation-std-n-libraries.md">
+                <toc-element toc-title="Основные решения навигации">
                     <toc-element topic="activity-navigation.md"/>
-                    <toc-element topic="fragment-navigation.md">
-                        <toc-element topic="fragment-manager.md">
-                        </toc-element>
+                    <toc-element toc-title="Fragment">
+                        <toc-element topic="fragment-manager.md"/>
                         <toc-element topic="cicerone.md"/>
                         <toc-element topic="navigation-component.md"/>
                     </toc-element>
-                    <toc-element topic="compose-navigation.md">
+                    <toc-element toc-title="Compose">
                         <toc-element topic="compose-navigation-component.md"/>
                         <toc-element topic="manual-switch-structure.md"/>
                         <toc-element topic="appyx.md"/>
@@ -57,22 +55,140 @@
                 </toc-element>
             </toc-element>
             <toc-element topic="ui-profiling.md"/>
-            <toc-element topic="persistent-storage-libraries.md"/>
-            <toc-element topic="network-libraries.md"/>
-            <toc-element topic="dependency-injection.md"/>
-            <toc-element topic="unit-testing.md"/>
-            <toc-element topic="uiI-testing.md"/>
-            <toc-element topic="build-process.md"/>
-            <toc-element topic="app-publishing-and-monitoring.md"/>
+            <toc-element toc-title="Persistent Storage libraries">
+                <toc-element topic="sqlite.md"/>
+                <toc-element topic="room.md"/>
+                <toc-element topic="sqldelight.md"/>
+                <toc-element topic="shared-prefs.md"/>
+                <toc-element topic="data-store.md"/>
+                <toc-element topic="kstore.md"/>
+            </toc-element>
+            <toc-element toc-title="Network libraries">
+                <toc-element topic="web-sockets.md"/>
+                <toc-element topic="ok-http.md"/>
+                <toc-element topic="retrofit.md"/>
+                <toc-element topic="ktor.md"/>
+            </toc-element>
+            <toc-element topic="dependency-injection.md">
+                <toc-element topic="dagger2.md"/>
+                <toc-element topic="hilt.md"/>
+                <toc-element topic="koin.md"/>
+            </toc-element>
+            <toc-element topic="unit-testing.md">
+                <toc-element topic="j-unit-4.md"/>
+                <toc-element topic="j-unit-5.md"/>
+                <toc-element topic="mock-k.md"/>
+                <toc-element topic="strikt.md"/>
+                <toc-element topic="coroutines-test.md"/>
+                <toc-element topic="turbine.md"/>
+            </toc-element>
+            <toc-element topic="ui-testing.md">
+                <toc-element topic="espresso.md"/>
+                <toc-element topic="kspresso.md"/>
+            </toc-element>
+            <toc-element topic="build-process.md">
+                <toc-element topic="dex-multidex.md"/>
+                <toc-element topic="r8-d8.md"/>
+                <toc-element topic="proguard.md"/>
+                <toc-element topic="android-lint.md"/>
+                <toc-element topic="gradle.md">
+                    <toc-element topic="gradle-syntax.md"/>
+                    <toc-element topic="version-catalog.md"/>
+                    <toc-element topic="api-vs-abi.md"/>
+                    <toc-element topic="convention-plugins.md"/>
+                    <toc-element topic="kmp-config.md"/>
+                    <toc-element topic="gradle-optimizations.md"/>
+                </toc-element>
+                <toc-element topic="code-generation.md"/>
+            </toc-element>
+            <toc-element topic="app-publishing-and-monitoring.md">
+                <toc-element topic="google-play-console.md"/>
+                <toc-element topic="ru-store-console.md"/>
+                <toc-element topic="app-analytics.md"/>
+                <toc-element topic="crashlytics.md"/>
+            </toc-element>
         </toc-element>
-        <toc-element topic="async.md"/>
-        <toc-element topic="architecture.md"/>
-        <toc-element topic="storage.md"/>
-        <toc-element topic="database.md"/>
-        <toc-element topic="network.md"/>
-        <toc-element topic="compilation.md"/>
-        <toc-element topic="ci-cd.md"/>
-        <toc-element topic="security.md"/>
+        <toc-element toc-title="Асинхронность">
+            <toc-element topic="async-intro.md"/>
+            <toc-element topic="threads.md"/>
+            <toc-element topic="coroutines.md"/>
+            <toc-element topic="coroutines-flow.md"/>
+            <toc-element topic="rx-java2.md"/>
+            <toc-element topic="handler-looper.md"/>
+            <toc-element topic="async-problems.md"/>
+        </toc-element>
+        <toc-element topic="architecture.md">
+            <toc-element topic="OOP-principles.md"/>
+            <toc-element topic="SOLID.md"/>
+            <toc-element topic="clean-architecture.md"/>
+            <toc-element topic="KISS.md"/>
+            <toc-element topic="DRY.md"/>
+            <toc-element topic="main-design-patterns.md">
+                <toc-element topic="facade.md"/>
+                <toc-element topic="builder.md"/>
+                <toc-element topic="observer.md"/>
+                <toc-element topic="decorator.md"/>
+                <toc-element topic="singleton.md"/>
+                <toc-element topic="bridge.md"/>
+                <toc-element topic="strategy.md"/>
+            </toc-element>
+            <toc-element topic="upper-layer-arch-patterns.md">
+                <toc-element topic="MVC.md"/>
+                <toc-element topic="MVP.md"/>
+                <toc-element topic="MVVM.md"/>
+                <toc-element topic="MVI.md"/>
+            </toc-element>
+            <toc-element topic="udf.md"/>
+            <toc-element topic="multi-module-project.md"/>
+            <toc-element topic="multiplatform-project.md"/>
+            <toc-element topic="single-activity.md"/>
+        </toc-element>
+        <toc-element topic="storage.md">
+            <toc-element topic="heap-n-stack.md"/>
+            <toc-element topic="grabage-collector.md"/>
+            <toc-element topic="memmory-leaks.md"/>
+            <toc-element topic="reference-types.md"/>
+            <toc-element topic="physical-storage-theory.md"/>
+        </toc-element>
+        <toc-element topic="database.md">
+            <toc-element topic="terminology.md"/>
+            <toc-element topic="DBMS.md"/>
+            <toc-element topic="transaction.md"/>
+            <toc-element topic="database-collisions.md"/>
+            <toc-element topic="ACID.md"/>
+            <toc-element topic="ORM.md"/>
+            <toc-element topic="migration.md"/>
+        </toc-element>
+        <toc-element topic="network.md">
+            <toc-element topic="osi-iso-model.md"/>
+            <toc-element topic="tcp-ip-model.md"/>
+            <toc-element toc-title="Виды API">
+                <toc-element topic="REST.md"/>
+                <toc-element topic="graph-ql.md"/>
+                <toc-element topic="SOAP.md"/>
+                <toc-element topic="RPC.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="compilation.md">
+            <toc-element topic="AOT.md"/>
+            <toc-element topic="JIT.md"/>
+            <toc-element topic="kotlin-multiplatform.md"/>
+        </toc-element>
+        <toc-element topic="ci-cd.md">
+            <toc-element topic="gitlab-ci.md"/>
+            <toc-element topic="github-ci.md"/>
+            <toc-element topic="jenkins.md"/>
+            <toc-element topic="docker.md"/>
+        </toc-element>
+        <toc-element topic="security.md">
+            <toc-element topic="man-in-the-middle.md"/>
+            <toc-element topic="encoding-symmetry.md"/>
+            <toc-element topic="main-encoding-patterns.md"/>
+            <toc-element topic="salt.md"/>
+            <toc-element topic="permanent-encoding.md"/>
+            <toc-element topic="app-signs.md"/>
+            <toc-element topic="main-android-vulnerbilities.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="additional-resources.md"/>
 </instance-profile>

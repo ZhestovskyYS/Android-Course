@@ -1,3 +1,0 @@
-# Compose
-
-Start typing here...

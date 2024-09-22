@@ -11,15 +11,15 @@
         <description>Навигация по темам</description>
 
         <spotlight>
-            <a href="android-base.md" type="learn">К основной части курса</a>
+            <a href="android-os-architecture.md" type="learn">К основной части курса</a>
             <a href="storage.md" type="idea">К дополнительным темам</a>
         </spotlight>
 
         <primary>
             <title>Основные темы</title>
-            <a href="android-base.md">Базовые знания Android экосистемы</a>
-            <a href="async.md">Асинхронное программирование</a>
-            <a href="architecture.md">Архитектура ПО</a>
+            <a href="android-os-architecture.md">Базовые знания Android экосистемы</a>
+            <a href="async-intro.md">Асинхронное программирование</a>
+            <a href="architecture.md">Архитектура</a>
             <a href="database.md">Базы данных</a>
             <a href="network.md">Сеть</a>
         </primary>
