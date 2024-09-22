@@ -56,19 +56,17 @@ Binder IPC. Этот фреймворк позволяет синхронно и
 
 ## Полезные видео
 
-> Промежуток `[27:44 - 37:05]`
-
 **Собеседование на канале Android Broadcast**
 
-<video src="https://youtu.be/4Mkrk3YDuCw"/>
+> Промежуток `[27:44 - 37:05]`
 
+<video src="https://youtu.be/4Mkrk3YDuCw" mini-player="false" />
+
+**Binder Android Broadcast**
 
 > Можно смотреть целиком
 
-Binder Android Broadcast
-
-<video src="https://youtu.be/yyaw0C6oA5k" />
-
+<video src="https://youtu.be/yyaw0C6oA5k" mini-player="false"/>
 
 <seealso>
   <category ref="src">
