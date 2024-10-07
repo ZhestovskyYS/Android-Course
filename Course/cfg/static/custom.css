@@ -1,0 +1,21 @@
+.title__content {
+    font-family: sohne, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    letter-spacing: -.011em;
+}
+
+.article__p {
+    line-height: 32px;
+    font-family: source-serif-pro, Georgia, Cambria, Times New Roman, Times, serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -.003em;
+}
+
+.article__img {
+    border-radius: 30px !important;
+    border: none;
+}

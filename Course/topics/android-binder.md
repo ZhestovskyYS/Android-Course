@@ -134,6 +134,8 @@ abstract fun transact(
 <seealso>
     <category ref="src">
         <a href="https://developer.android.com/reference/kotlin/android/os/IBinder">Android Developers | IBinder</a>
-        <a href="https://www.youtube.com/watch?v=yyaw0C6oA5k">Android Broadcast youtube | Binder </a>
+        <a href="https://vk.com/video-191115425_456239259">Android Broadcast | Binder | ВК Видео</a>
+        <a href="https://abdev.by/JaN">Android Broadcast | Binder | Slides</a>
+        <a href="https://habr.com/ru/articles/176093/">Основы безопасности операционной системы Android. Безопасность на уровне Application Framework. Binder IPC</a>
     </category>
 </seealso>
