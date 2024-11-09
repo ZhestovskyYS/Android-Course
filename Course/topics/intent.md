@@ -53,9 +53,9 @@
 > В таком случае [MIME](https://ru.w3docs.com/uchebnik-html/mime-tipy.html) тип данных виден системе без указания
 > { style="note"}
 
-### Категория
+### Категории
 
-Строка, содержащая дополнительную информацию о подходящем для обработки Intent-а компонента,
+- это строка, содержащая дополнительную информацию о подходящем для обработки Intent-а компонента,
 например: [CATEGORY_BROWSABLE](https://developer.android.com/reference/android/content/Intent#CATEGORY_BROWSABLE), [CATEGORY_LAUNCHER](https://developer.android.com/reference/android/content/Intent#CATEGORY_LAUNCHER).
 
 ### Дополнительные данные (Extra)
