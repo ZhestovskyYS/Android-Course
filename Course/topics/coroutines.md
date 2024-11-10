@@ -80,6 +80,83 @@ Transition-diagram Compiler" Конвей описал идею сопрогра
 возможным писать асинхронный код в том же стиле и виде, что и обычный. Все дополнительные настройки производятся за счет
 кодогенерации.
 
+Вот пример как будет выглядеть код:
+
+```kotlin
+override suspend fun loadChooseCardScreenData(): ChooseLuckyCardScreenEntity =
+        withContext(dispatchers.io) {
+            Log.d("Calling cloud function", CLOUD_FUNC_REQUEST_LUCKY_CARD_DECK)
+            val response = ParseCloud.callFunction<Map<String, Any>?>(
+                CLOUD_FUNC_REQUEST_LUCKY_CARD_DECK, HashMap<String, Any>()
+            )?.toModel<ChooseLuckyCardScreenEntity>()
+                ?: ChooseLuckyCardScreenEntity()
+            return@withContext response
+        }
+```
+
+{ collapsible="true" collapsed-title="Функция `loadChooseCardScreenData`"}
+
+после декомпиляции:
+
+```kotlin
+   @Nullable
+   public Object loadChooseCardScreenData(@NotNull Continuation $completion) {
+      return BuildersKt.withContext((CoroutineContext)this.dispatchers.getIo(), (Function2)(new Function2((Continuation)null) {
+         int label;
+
+         public final Object invokeSuspend(Object var1) {
+            Object var9 = IntrinsicsKt.getCOROUTINE_SUSPENDED();
+            switch (this.label) {
+               case 0:
+                  ChooseLuckyCardScreenEntity var10000;
+                  label17: {
+                     ResultKt.throwOnFailure(var1);
+                     Log.d("Calling cloud function", "requestLuckyCardDeck");
+                     Map var3 = (Map)ParseCloud.callFunction("requestLuckyCardDeck", (Map)(new HashMap()));
+                     if (var3 != null) {
+                        Map $this$toModel$iv = var3;
+                        int $i$f$toModel = false;
+                        String var7 = (new JSONObject($this$toModel$iv)).toString();
+                        Intrinsics.checkNotNullExpressionValue(var7, "toString(...)");
+                        String jsonString$iv = var7;
+                        ChooseLuckyCardScreenEntity var4 = (ChooseLuckyCardScreenEntity)(new Gson()).fromJson(jsonString$iv, ChooseLuckyCardScreenEntity.class);
+                        if (var4 != null) {
+                           var10000 = var4;
+                           break label17;
+                        }
+                     }
+
+                     var10000 = new ChooseLuckyCardScreenEntity((TarotCard)null, (List)null, (String)null, (Integer)null, (Integer)null, (Integer)null, 63, (DefaultConstructorMarker)null);
+                  }
+
+                  ChooseLuckyCardScreenEntity response = var10000;
+                  return response;
+               default:
+                  throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+         }
+
+         public final Continuation create(Object value, Continuation $completion) {
+            return (Continuation)(new <anonymous constructor>($completion));
+         }
+
+         public final Object invoke(CoroutineScope p1, Continuation p2) {
+            return ((<undefinedtype>)this.create(p1, p2)).invokeSuspend(Unit.INSTANCE);
+         }
+
+         // $FF: synthetic method
+         // $FF: bridge method
+         public Object invoke(Object p1, Object p2) {
+            return this.invoke((CoroutineScope)p1, (Continuation)p2);
+         }
+      }), $completion);
+   }
+```
+
+{ collapsible="true" collapsed-title="Декомпилированная функция `loadChooseCardScreenData`"}
+
+
+
 Рассмотрим концепции, перечисленные в предыдущем разделе:
 
 - **Точками приостановки и возобновления** считается место вызова **_suspend_** функции в запущенной корутине
@@ -95,10 +172,10 @@ Transition-diagram Compiler" Конвей описал идею сопрогра
 
 Для запуска корутины нужно использовать один из билдеров корутин:
 
-- **_runBlocking_**: 
-  - редко используемый билдер, так как лишает корутину ее главного преимущества (не блокирования
-    потоков выполнения), но позволяет дождаться окончания асинхронной работы и получить ее результат на месте. Стоит
-    использовать только если вы 100% уверены в том что делаете.
+- **_runBlocking_**:
+    - редко используемый билдер, так как лишает корутину ее главного преимущества (не блокирования
+      потоков выполнения), но позволяет дождаться окончания асинхронной работы и получить ее результат на месте. Стоит
+      использовать только если вы 100% уверены в том что делаете.
 
 - **_launch_**
 
