@@ -6,6 +6,14 @@
     letter-spacing: -.011em;
 }
 
+h3 .title__content {
+       font-family: sohne, Helvetica Neue, Helvetica, Arial, sans-serif;
+       font-weight: 700;
+       font-size: 30px;
+       line-height: 52px;
+       letter-spacing: -.011em;
+   }
+
 .article__p {
     line-height: 32px;
     font-family: source-serif-pro, Georgia, Cambria, Times New Roman, Times, serif;
