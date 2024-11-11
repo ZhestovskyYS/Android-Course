@@ -14,12 +14,25 @@ h3 .title__content {
        letter-spacing: -.011em;
    }
 
+h4 .title__content {
+       font-family: sohne, Helvetica Neue, Helvetica, Arial, sans-serif;
+       font-weight: 700;
+       font-size: 26px;
+       line-height: 40px;
+       letter-spacing: -.011em;
+   }
+
 .list>li:before {
     top: 6px;
 }
 
 .list._decimal>li:before {
     top: 5px;
+}
+
+.code {
+    line-height: 32px;
+    font-size: 18px;
 }
 
 .article__p {
