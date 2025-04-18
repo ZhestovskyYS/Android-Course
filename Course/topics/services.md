@@ -1,6 +1,6 @@
 # Services
 
-<secondary-label ref="todo"/>
+<secondary-label ref="wip"/>
 
 Service в Android ключевой механизм для выполнения длительных операций в Android,
 но их использование требует понимания их типов, жизненного цикла и ограничений.
