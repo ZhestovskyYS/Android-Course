@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: 'Writerside/Android Course'
+  INSTANCE: 'Course/ac'
   DOCKER_VERSION: '241.18775'
 
 jobs:
