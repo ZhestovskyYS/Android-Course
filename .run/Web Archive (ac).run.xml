@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Web Archive (ac)" type="StardustRunConfiguration" factoryName="save-as-zip">
+    <option name="folderPath" value="$PROJECT_DIR$" />
+    <option name="instanceId" value="ac" />
+    <option name="instanceName" value="Android Course" />
+    <option name="moduleName" value="Course" />
+    <method v="2" />
+  </configuration>
+</component>
